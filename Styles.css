@@ -1,13 +1,22 @@
-<!DOCTYPE html>
-
-<html>
-    <head>
-        <title>CSS</title>
-
-        <link rel="stylesheet" href="styles.css" />
-        
-    </head>
-    <body>
-        <p>This is paragraph is styled using CSS!</p>
-    </body>
-</html>
+body {
+  background: coral;
+}
+p {
+  color: purple;
+  font-size: 20px;
+}
+h1 {
+    font-style: bold;
+    text-align: center;
+    font-size: 150px;
+    line-height: 0px;
+}
+h2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+table {
+    text-align: center;
+    border: 1px solid black;
+}
