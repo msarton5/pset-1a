@@ -4,7 +4,8 @@
 }
 
 body {
-  background: coral;
+  background: #639E8A;
+  font-family: "Papyrus";
 }
 
 #disgostang {
@@ -20,24 +21,68 @@ body {
 }
 
 p {
-  color: purple;
+  color: #4A0857;
   font-size: 20px;
+  margin: 100;
+  font-family: "Comic Sans MS"
 }
 
 h1 {
     font-style: bold;
     text-align: center;
     font-size: 150px;
-    line-height: 0px;
+    line-height: 50px;
 }
 
 h2 {
     font-style: italic;
     text-align: center;
     font-size: 30px;
+    line-height: 0px;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
-table {
+.species-table {
     text-align: center;
     border: 1px solid black;
+}
+
+.rats-eating {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.what-do-rats-eat {
+    color: green;
+}
+
+a {
+    color: #69EF47;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: #FED0F4;
+}
+
+a[href="https://en.wikipedia.org/wiki/Black_rat"] {
+    font-size: 25px;
+}
+
+a[href="https://en.wikipedia.org/wiki/Brown_rat"] {
+    font-size: 25px;
+}
+
+a[href="https://en.wikipedia.org/wiki/Fancy_rat"] {
+    font-size: 25px;
+}
+
+p ~ ul {
+    font-style: italic;
 }
